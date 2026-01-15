@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan Ziese - Journalist</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #0D0221;
+            background-color: #F8F9FA;
+        }
+        
+        /* Hero Section with Image */
+        .hero {
+            position: relative;
+            height: 70vh;
+            min-height: 500px;
+            background: #0F084B;
+            overflow: hidden;
+        }
+        
+        .hero-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.35;
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(15, 8, 75, 0.7);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            padding: 2rem;
+        }
+        
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 300;
+            letter-spacing: 3px;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .hero-tagline {
+            font-size: 1.3rem;
+            font-weight: 300;
+            font-family: 'Arial', sans-serif;
+            letter-spacing: 2px;
+            color: #F8F9FA;
+            text-transform: uppercase;
+        }
+        
+        /* Navigation */
+        nav {
+            background-color: #F8F9FA;
+            padding: 1rem 0;
+            text-align: center;
+            border-bottom: 2px solid #26408B;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        nav a {
+            color: #0D0221;
+            text-decoration: none;
+            margin: 0 2rem;
+            font-family: 'Arial', sans-serif;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #26408B;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        
+        /* About Section */
+        .about-section {
+            margin-bottom: 4rem;
+            padding-bottom: 3rem;
+            border-bottom: 3px solid #26408B;
+        }
+        
+        .about-section h2 {
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+            font-weight: 400;
+            color: #0F084B;
+        }
+        
+        .about-section p {
+            font-size: 1.15rem;
+            line-height: 1.9;
+            color: #0D0221;
+        }
+        
+        /* Portfolio Section */
+        #work h2 {
+            font-size: 2.2rem;
+            margin-bottom: 2.5rem;
+            font-weight: 400;
+            color: #0F084B;
+        }
+        
+        .portfolio-grid {
+            display: grid;
+            gap: 3rem;
+        }
+        
+        .portfolio-item {
+            border-left: 4px solid #26408B;
+            padding-left: 2rem;
+            transition: border-color 0.3s;
+        }
+        
+        .portfolio-item:hover {
+            border-left-color: #0F084B;
+        }
+        
+        .portfolio-item h3 {
+            font-size: 1.7rem;
+            margin-bottom: 0.5rem;
+            font-weight: 400;
+            line-height: 1.4;
+        }
+        
+        .portfolio-item h3 a {
+            color: #0D0221;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .portfolio-item h3 a:hover {
+            color: #26408B;
+        }
+        
+        .portfolio-meta {
+            font-family: 'Arial', sans-serif;
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .portfolio-excerpt {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #0D0221;
+            margin-bottom: 1rem;
+        }
+        
+        .read-more {
+            display: inline-block;
+            color: #26408B;
+            text-decoration: none;
+            font-family: 'Arial', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s;
+            padding: 0.5rem 0;
+            border-bottom: 2px solid transparent;
+        }
+        
+        .read-more:hover {
+            color: #0F084B;
+            border-bottom-color: #0F084B;
+        }
+        
+        /* Footer */
+        footer {
+            background: #0F084B;
+            color: #F8F9FA;
+            text-align: center;
+            padding: 3rem 2rem;
+            margin-top: 5rem;
+        }
+        
+        footer p {
+            font-size: 1rem;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        footer a {
+            color: #F8F9FA;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            transition: opacity 0.3s;
+            font-weight: 600;
+        }
+        
+        footer a:hover {
+            opacity: 0.8;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero {
+                height: 60vh;
+                min-height: 400px;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero-tagline {
+                font-size: 1rem;
+            }
+            
+            nav a {
+                display: inline-block;
+                margin: 0.5rem 1rem;
+            }
+            
+            .container {
+                padding: 2rem 1rem;
+            }
+            
+            .portfolio-item {
+                padding-left: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <!-- Replace this src with your actual biking photo -->
+        <img src="your-biking-photo.jpg" alt="Jordan Ziese biking through Boston" class="hero-image">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Jordan Ziese</h1>
+            <p class="hero-tagline">Journalist</p>
+        </div>
+    </section>
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="container">
+        <section id="about" class="about-section">
+            <h2>About</h2>
+            <p>Jordan Ziese is a journalist pursuing a Master's in Journalism at Northeastern University. Her reporting focuses on community stories, cultural trends, and local voices. She currently works in communications at D'Amore-McKim School of Business.</p>
+        </section>
+        
+        <section id="work">
+            <h2>Selected Work</h2>
+            
+            <div class="portfolio-grid">
+                <article class="portfolio-item">
+                    <h3><a href="#">A local comedy organizer is hoping these punchlines get people to the polls</a></h3>
+                    <div class="portfolio-meta">October 2024 • Community</div>
+                    <p class="portfolio-excerpt">A profile of a Boston-area comedy organizer using humor as a vehicle for civic engagement ahead of the 2024 election.</p>
+                    <a href="#" class="read-more">Read Story →</a>
+                </article>
+                
+                <article class="portfolio-item">
+                    <h3><a href="#">Ink Source: Trailblazing a new era for the Boston tattoo community</a></h3>
+                    <div class="portfolio-meta">October 2024 • Culture</div>
+                    <p class="portfolio-excerpt">An examination of how one tattoo studio is reshaping the local industry and building a more inclusive creative community.</p>
+                    <a href="#" class="read-more">Read Story →</a>
+                </article>
+                
+                <article class="portfolio-item">
+                    <h3><a href="#">[Your Third Strongest Piece]</a></h3>
+                    <div class="portfolio-meta">Month 2024 • Category</div>
+                    <p class="portfolio-excerpt">Brief description of the reporting and what the story is about.</p>
+                    <a href="#" class="read-more">Read Story →</a>
+                </article>
+            </div>
+        </section>
+    </div>
+    
+    <footer id="contact">
+        <p><a href="mailto:your.email@example.com">Email</a> | <a href="https://www.linkedin.com/in/jordan-ziese/" target="_blank">LinkedIn</a> | <a href="#" target="_blank">Resume</a></p>
+    </footer>
+</body>
+</html>
