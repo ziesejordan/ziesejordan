@@ -67,6 +67,35 @@
             font-weight: 400;
         }
         
+        .publication-credit {
+            background: #fff;
+            border-left: 4px solid #26408B;
+            padding: 1rem 1.5rem;
+            margin-bottom: 2rem;
+            font-family: 'Arial', sans-serif;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        
+        .publication-credit a {
+            color: #26408B;
+            font-weight: 600;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .publication-credit a:hover {
+            color: #0F084B;
+            text-decoration: underline;
+        }
+        
+        .hero-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+        
         .article-meta {
             font-family: 'Arial', sans-serif;
             font-size: 0.9rem;
@@ -106,6 +135,22 @@
             font-size: 1.1rem;
             margin-bottom: 1.5rem;
             line-height: 1.9;
+        }
+        
+        .story-image {
+            width: 100%;
+            height: auto;
+            margin: 2rem 0 0.5rem 0;
+            border-radius: 4px;
+        }
+        
+        .photo-caption {
+            font-family: 'Arial', sans-serif;
+            font-size: 0.9rem;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 2rem;
+            line-height: 1.5;
         }
         
         .back-link {
@@ -153,8 +198,14 @@
         <div class="article-meta">October 11, 2024 • Culture & Community</div>
         <p class="byline">Sofia Baah and Jordan Ziese</p>
         
+        <div class="publication-credit">
+            <em>This story was originally published as part of <a href="https://podcasts.apple.com/fr/podcast/the-scope-podcast/id1717331261" target="_blank">The Scope Podcast</a>, an editorially indepenedent Northeastern University School of Journalism publication telling Boston's stories of hope, justice, and resilience.</em>
+        </div>
+        
+        <img src="ink-source-desk.jpg" alt="The lobby of Ink Source tattoo studio in Boston" class="hero-image">
+        
         <div class="audio-container">
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1951165326&color=%2326408b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/jordan-ziese-615465724/ink-source-trailblazing-a-new-era-for-the-boston-tattoo-community&color=%2326408b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
         </div>
         
         <p>If asked to imagine a tattoo studio, you might conjure images of neon signs, buzzing ink guns, and bad decisions. But Ink Source, one of the city's newest parlors as of Spring 2024, is actively looking to counter that image with bright white walls, lush alocasia plants, and booming Spanish pop music that greet you when you enter. Co-owners Estefani Benitez and Daniel Sanchez told us they are the first Latino owned shop in Boston, despite around 20% of the city's population identifying as Latinx. These new business owners discussed how they hope to transform the ink scene in Boston to be more inclusive of people of all skin tones and make high-quality and professional tattooing more accessible to their local Roxbury community.</p>
@@ -188,6 +239,9 @@
         <p><strong>Sanchez:</strong> Yeah, I feel like this industry has a stigma or something, where people have this idea that it's, like, rough and tough type of people [that tattoo]. At Ink Source we've addressed that we're just artists, you know, and that that's what I want for this place, is just being people who love art and there are no egos. I think that's what it comes down to, ultimately: good customer service and good art.</p>
         
         <p>I think that by showing people that [tattooing] is a very professional industry, that'll get rid of the stigma that people have toward tattooing and help people to feel comfortable coming in here without having an expectation of a dark type of vibe. The color and the vibe of the shop in general, is a very good representation who we are and the vibes that we're trying to bring to this industry.</p>
+        
+        <img src="ink-source-owners.jpg" alt="Co-owners of Ink Source, Daniel Sanchez and Estefani Benitez" class="story-image">
+        <p class="photo-caption">Co-owners of Ink Source, Daniel Sanchez and Estefani Benitez in their tattoo shop in Boston, MA, on Monday, Oct. 7, 2024. (Photo/Sofia Baah).</p>
         
         <a href="index.html" class="back-link">← Back to Portfolio</a>
     </article>
