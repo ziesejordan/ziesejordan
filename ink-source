@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ink Source: Trailblazing a new era for the Boston tattoo community - Jordan Ziese</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            color: #0D0221;
+            background-color: #F8F9FA;
+        }
+        
+        header {
+            background: #0F084B;
+            color: #F8F9FA;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        
+        nav {
+            background-color: #F8F9FA;
+            padding: 1rem 0;
+            text-align: center;
+            border-bottom: 2px solid #26408B;
+        }
+        
+        nav a {
+            color: #0D0221;
+            text-decoration: none;
+            font-family: 'Arial', sans-serif;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #26408B;
+        }
+        
+        article {
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+        
+        article h1 {
+            font-size: 2.5rem;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+            color: #0F084B;
+            font-weight: 400;
+        }
+        
+        .article-meta {
+            font-family: 'Arial', sans-serif;
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #26408B;
+        }
+        
+        .byline {
+            font-style: italic;
+            font-size: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .audio-container {
+            margin: 2rem 0;
+            padding: 1rem;
+            background: #fff;
+            border-left: 4px solid #26408B;
+        }
+        
+        .audio-container iframe {
+            width: 100%;
+            border: none;
+        }
+        
+        article h2 {
+            font-size: 1.6rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: #0F084B;
+            font-weight: 600;
+        }
+        
+        article p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.9;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 3rem;
+            color: #26408B;
+            text-decoration: none;
+            font-family: 'Arial', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s;
+            padding: 0.5rem 0;
+            border-bottom: 2px solid transparent;
+        }
+        
+        .back-link:hover {
+            color: #0F084B;
+            border-bottom-color: #0F084B;
+        }
+        
+        @media (max-width: 768px) {
+            article h1 {
+                font-size: 1.8rem;
+            }
+            
+            article {
+                padding: 0 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jordan Ziese</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">← Back to Portfolio</a>
+    </nav>
+    
+    <article>
+        <h1>Ink Source: Trailblazing a new era for the Boston tattoo community</h1>
+        <div class="article-meta">October 11, 2024 • Culture & Community</div>
+        <p class="byline">Sofia Baah and Jordan Ziese</p>
+        
+        <div class="audio-container">
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1951165326&color=%2326408b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        </div>
+        
+        <p>If asked to imagine a tattoo studio, you might conjure images of neon signs, buzzing ink guns, and bad decisions. But Ink Source, one of the city's newest parlors as of Spring 2024, is actively looking to counter that image with bright white walls, lush alocasia plants, and booming Spanish pop music that greet you when you enter. Co-owners Estefani Benitez and Daniel Sanchez told us they are the first Latino owned shop in Boston, despite around 20% of the city's population identifying as Latinx. These new business owners discussed how they hope to transform the ink scene in Boston to be more inclusive of people of all skin tones and make high-quality and professional tattooing more accessible to their local Roxbury community.</p>
+        
+        <h2>Who are you and how did you end up in Roxbury?</h2>
+        
+        <p><strong>Estefani Benitez:</strong> I was born in El Salvador; I came here when I was two years old and was raised in Jamaica Plains and Roslindale. I'm a longtime Boston person, and I'm also the owner of Ink Source with Daniel.</p>
+        
+        <p><strong>Daniel Sanchez:</strong> I was born in Guatemala City and raised in a small city called Grande Prairie, Alberta in Canada. I'm the main artist at Ink Source.</p>
+        
+        <h2>What is Ink Source? How did you create the name?</h2>
+        
+        <p><strong>Benitez:</strong> We didn't want Ink Source to be tattooing, because we have other things that we do with ink. We have permanent makeup; We have airbrush tattoos; We have my husband who is a professional airbrush artist.</p>
+        
+        <h2>What is the most difficult, or the most gratifying aspect of starting a business? Specifically in relation to the setting of Roxbury and Boston?</h2>
+        
+        <p><strong>Benitez:</strong> There's a level of faith to it! The reason that we chose Roxbury was because I went to school in Roxbury. And, historically, Roxbury has been disinvested in because a lot of businesses typically don't want to be in neighborhoods that are seen as not as 'good' as other neighborhoods. I foresee a vision for Roxbury in 10 years or 20 years, and it's very powerful. They're trying to bring back, you know, Black Wall Street and so many things that Roxbury used to represent before all the urban renewal that happened that stripped it of so many things. So, we wanted to play a part in investing in the community. We want to provide the service of tattooing well on black people and of color people, because that's a big thing for us: knowing how to tattoo on the color of our skin.</p>
+        
+        <h2>How have your Latino identities influenced your approach to owning a business and tattooing?</h2>
+        
+        <p><strong>Sanchez:</strong> Being Latino, the [tattoo] style is very different from a lot of other artists here in Boston. Going to Guatemala as a kid and stuff, there are so many artists in Latin America, and they're so good. And on the West Coast, with such a heavy Central American and Mexican population, you see a lot of that Mayan and Aztec-inspired type of artwork. I was always fascinated with that type of stuff: airbrushing, low riders and cars, etc. I feel like that is very strong in the Latin community, and that's what I grew up looking at and watching. So, when I came here, that's not really part of the East Coast culture. It's cool to be able to bring some of that flavor out here.</p>
+        
+        <p><strong>Benitez:</strong> In other states, the Latinx community dominates these [tattooing] industries, but here in Boston, is something completely different. The Latino community is very diverse. We have such a variety of culture as Caribbeans, South Americans, and Central Americans. We're very unique and diverse within our community. And I think that that brings a level of warmth, you know, when we meet each other. When you hear someone talking Spanish or playing Spanish music, [we're] just like: "Whoa, oh my gosh!" [We] feel like [we're] in [our] living room. So, I think that's really special. That's how [being Latinx] influenced a lot of the things we do.</p>
+        
+        <h2>Anything else you'd like to add?</h2>
+        
+        <p><strong>Benitez:</strong> We're looking forward to everything that's going on, we're offering a wide variety of services. We have such a big reach, with our permanent makeup offerings, but then we also have ephemeral tattoos, which is really great because they fade within three years. It's nice because not everybody wants a permanent [tattoo].</p>
+        
+        <p>Our approach is very educational. I like people feeling well informed. Design is so important, and Dan puts so much work into making sure that those designs are coming out as close to what that client is wanting. It's really great collaborating with clients in developing their design.</p>
+        
+        <p><strong>Sanchez:</strong> Yeah, I feel like this industry has a stigma or something, where people have this idea that it's, like, rough and tough type of people [that tattoo]. At Ink Source we've addressed that we're just artists, you know, and that that's what I want for this place, is just being people who love art and there are no egos. I think that's what it comes down to, ultimately: good customer service and good art.</p>
+        
+        <p>I think that by showing people that [tattooing] is a very professional industry, that'll get rid of the stigma that people have toward tattooing and help people to feel comfortable coming in here without having an expectation of a dark type of vibe. The color and the vibe of the shop in general, is a very good representation who we are and the vibes that we're trying to bring to this industry.</p>
+        
+        <a href="index.html" class="back-link">← Back to Portfolio</a>
+    </article>
+</body>
+</html>
