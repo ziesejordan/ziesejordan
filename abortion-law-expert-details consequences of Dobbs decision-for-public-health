@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abortion law expert details consequences of Dobbs decision for public health - Jordan Ziese</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            color: #0D0221;
+            background-color: #F8F9FA;
+        }
+        
+        header {
+            background: #0F084B;
+            color: #F8F9FA;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        
+        nav {
+            background-color: #F8F9FA;
+            padding: 1rem 0;
+            text-align: center;
+            border-bottom: 2px solid #26408B;
+        }
+        
+        nav a {
+            color: #0D0221;
+            text-decoration: none;
+            font-family: 'Arial', sans-serif;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #26408B;
+        }
+        
+        article {
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+        
+        article h1 {
+            font-size: 2.5rem;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+            color: #0F084B;
+            font-weight: 400;
+        }
+        
+        .article-meta {
+            font-family: 'Arial', sans-serif;
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #26408B;
+        }
+        
+        .lede {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+        
+        article p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.9;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 3rem;
+            color: #26408B;
+            text-decoration: none;
+            font-family: 'Arial', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s;
+            padding: 0.5rem 0;
+            border-bottom: 2px solid transparent;
+        }
+        
+        .back-link:hover {
+            color: #0F084B;
+            border-bottom-color: #0F084B;
+        }
+        
+        @media (max-width: 768px) {
+            article h1 {
+                font-size: 1.8rem;
+            }
+            
+            article {
+                padding: 0 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jordan Ziese</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">← Back to Portfolio</a>
+    </nav>
+    
+    <article>
+        <h1>Abortion law expert details consequences of Dobbs decision for public health</h1>
+        <div class="article-meta">November 11, 2024 • Women's Rights</div>
+        
+        <p class="lede">CAMBRIDGE – In the three years since the Supreme Court upset half a century of abortion law with the Dobbs ruling, the issue has been thrust back into the spotlight of public debate and asks the question of who holds expertise in modern society: judges, scientists or women themselves?</p>
+        
+        <p>On a dreary Wednesday evening in early November, a group of around 25 students, faculty and the interested public gathered to hear from Aziza Ahmed, professor and the N. Neal Pike scholar at the Boston University School of Law. Ahmed, the author of the September 2025 book "Risk and Resistance: How Feminists Transformed the Law and Science of AIDS," is a scholar of health and the law, specializing in reproductive justice. This lecture, titled "Evidence and Expertise in Abortion" was part of a larger series, "Articulating Abortion," sponsored by the Massachusetts Institute of Technology women and gender studies department.</p>
+        
+        <p>According to Ahmed, the 2023 Dobbs decision set America on a "collision course" as federal abortion protections are undone by a Supreme Court making decisions based on the legal doctrine of originalism. The philosophy asks, "is this right found in the history and tradition of the United States?" per Ahmed.</p>
+        
+        <p>Applying originalism to abortion law is faulty, said Ahmed. "Is there another medical procedure where we would ask ourselves 'what did they do in 1810?'"</p>
+        
+        <p>These debates are not merely theoretical; real women's lives are at stake. "Dobbs created a public health crisis," said Ahmed. The patchwork of state laws is showing strain only a few years into the post-Roe era.</p>
+        
+        <p>She pointed to the "basic lack of clarity" about what constitutes saving a woman's life, OBGYNs not wanting to train in red states and even pregnant women in states like Idaho being encouraged to have medivac insurance in case they require a life-saving abortion procedure no doctor would feel legally comfortable performing in the state.</p>
+        
+        <p>Abortion is a fraught topic in American jurisprudence and medicine because "both science and law have a very authoritative role in society," said Ahmed. While the law is "a site of fact formation," so is an individual "who is an expert because they live in their own body," alluding to the Our Bodies Ourselves group that grew from a group of students in Boston into a powerful political movement in the 1970s.</p>
+        
+        <p>Ahmed said many anti-choice, or pro-life, groups make claims in "a scientific register" to gain authority in the public and legal sphere. In their experience, "fetuses don't garner much sympathy from the public," but protecting women does. And the groups advocating for and against abortion disagree on what exactly protecting women might mean.</p>
+        
+        <p>These groups use the auspices of scientific authority when advocating for laws requiring women to be shown ultrasounds and receive pamphlets detailing the potential effects of the procedure on their bodies.</p>
+        
+        <p>Doctors have devised ways to skirt these requirements, like offering the patient headphones before playing the fetal heartbeat.</p>
+        
+        <p>The pamphlets have become a major front in a battle of truths. Ahmed says of them, "we're in a misinformation universe." A pamphlet given to women in Texas seeking abortion care warns the consequences could be death, mental and physical health issues, future infertility and breast cancer risk.</p>
+        
+        <p>These groups have also used science to increase the number of studies done on abortion's effect on women's mental health, which Ahmed said are largely discredited. They also gave rise to the invention of "post-abortion syndrome," a diagnosis that didn't exist 20 years ago.</p>
+        
+        <p>"It's not that only one group of people cares about the truth," said Ahmed.</p>
+        
+        <p>She emphasized it's not as if there's anyone in the pro-choice movement who doesn't want to know if there are adverse effects of abortion. There just have yet to be any effects unearthed that stand up to scientific scrutiny.</p>
+        
+        <p>Ahmed said the psychological effects of not having an abortion should also be considered if women's well-being is what groups are concerned about. She also warns of what the trauma of viewing the pamphlets themselves, regardless of the validity of their claims, can also cause harm to patients.</p>
+        
+        <p>This is when the supposed expertise of the law and science fall short. "When is it actually that judges are supposed to step in and say the science is wrong?" asks Ahmed.</p>
+        
+        <p>In a question-and-answer session after her lecture, Ahmed was asked to say more about post-abortion syndrome and if it was because of having the actual procedure itself or because of having to view materials depicting the procedure as harmful or horrific in some way.</p>
+        
+        <p>Ahmed said that would be difficult to prove. She was careful to point out that while the experience of having an abortion can certainly be distressing, not having one can create problems too. "There are quite a lot of negative consequences to women denied abortion care."</p>
+        
+        <p>In a brief interview after the lecture, Sana Aiyar, a 46-year-old history professor at the Massachusetts Institute of Technology and a former interim director of the women and gender studies program, shared her thoughts.</p>
+        
+        <p>Specializing in south Asian history, she said the conversation around abortion is very different in a place like India. Cultural attitudes around abortion make it less taboo, and often the "issue is more about access" along class lines.</p>
+        
+        <p>Aiyar said that India recently passed laws against parents learning the gender of an expected child because "India had very high rates of aborted female fetuses." She said the two countries have very different political goals.</p>
+        
+        <p>Another audience member asked Ahmed what's next for abortion law. She answered grimly. "I think people see very little hope in the court."</p>
+        
+        <a href="index.html" class="back-link">← Back to Portfolio</a>
+    </article>
+</body>
+</html>
