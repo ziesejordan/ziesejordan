@@ -112,9 +112,11 @@
         
         /* About Section */
         .about-section {
-            margin-bottom: 4rem;
-            padding-bottom: 3rem;
-            border-bottom: 3px solid #26408B;
+            margin-top: 5rem;
+            margin-bottom: 0;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-top: 3px solid #26408B;
         }
         
         .about-section h2 {
@@ -128,6 +130,51 @@
             font-size: 1.15rem;
             line-height: 1.9;
             color: #0D0221;
+        }
+        
+        /* Contact Section */
+        .contact-section {
+            margin-top: 5rem;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-top: 3px solid #26408B;
+        }
+        
+        .contact-section h2 {
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+            font-weight: 400;
+            color: #0F084B;
+        }
+        
+        .contact-intro {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+            color: #0D0221;
+        }
+        
+        .contact-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .contact-buttons a {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            background-color: #26408B;
+            color: #F8F9FA;
+            text-decoration: none;
+            font-family: 'Arial', sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        
+        .contact-buttons a:hover {
+            background-color: #0F084B;
         }
         
         /* Portfolio Section */
@@ -292,7 +339,7 @@
                 
                 <article class="portfolio-item">
                     <h3><a href="abortion-law-expert-details-consequences-of-dobbs-decision-for-public-health.html">Abortion law expert details consequences of Dobbs decision for public health</a></h3>
-                    <div class="portfolio-meta">November 2024 • Women's Rights</div>
+                    <div class="portfolio-meta">November 2025 • Women's Rights</div>
                     <p class="portfolio-excerpt">Boston University Professor Aziza Ahmed tells an MIT crowd that the Dobbs decision set the United States on a "collision course."</p>
                     <a href="abortion-law-expert-details-consequences-of-dobbs-decision-for-public-health.html" class="read-more">Read Story →</a>
                 </article>
@@ -317,11 +364,20 @@
             <h2>About</h2>
             <p>Jordan Ziese is a journalist pursuing a Master's in Journalism at Northeastern University. Her reporting focuses on community stories, cultural trends, and local voices.</p>
         </section>
+        
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <p class="contact-intro">I'm always interested in hearing about new story ideas and opportunities.</p>
+            <div class="contact-buttons">
+                <a href="mailto:ziesejordan@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/jordan-ziese/" target="_blank">LinkedIn</a>
+                <a href="https://bsky.app/profile/jordozee.bsky.social" target="_blank">Bluesky</a>
+            </div>
+        </section>
     </div>
     
-    <footer id="contact">
-        <p><a href="mailto:ziesejordan@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/jordan-ziese/" target="_blank">LinkedIn</a> | <a href="https://bsky.app/profile/jordozee.bsky.social" target="_blank">Bluesky</a></p>
-        <p style="font-size: 0.85rem; margin-top: 1.5rem; font-style: italic; opacity: 0.8;">This website was built with assistance from generative AI. The journalism and writing contained here was not created with generative AI unless otherwise noted.</p>
+    <footer>
+        <p style="font-size: 0.85rem; font-style: italic; opacity: 0.8;">This website was built with assistance from generative AI. The journalism and writing contained here was not created with generative AI unless otherwise noted.</p>
     </footer>
 </body>
 </html>
